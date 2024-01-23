@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(74, 204, 255);
+}
+.container{
+    background-color: aliceblue;
+    margin-top: 100px;
+    padding: 1rem;
+    height: 45vh;
+    width: 50vh;
+    border-radius: 1rem;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amount{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.amount input{
+    height: 1.5rem;
+    display: flex;
+    width: 100%;
+    border-radius: .50rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.from img{
+    height: 2rem;
+    width: 2rem;
+    margin-right: .5rem;
+}
+.to img{
+    height: 2rem;
+    width: 2rem;
+    margin-right: .5rem;
+}
+
+.flag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.msg{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+button, .get{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: green;
+    color: white;
+}
