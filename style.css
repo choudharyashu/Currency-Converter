@@ -26,10 +26,11 @@ h1{
     font-size: 1.5rem;
 }
 .amount input{
-    height: 1.5rem;
-    display: flex;
+    height: 2rem;
+    /* display: flex; */
     width: 100%;
     border-radius: .50rem;
+    padding-left: 10px;
 }
 .dropdown{
     display: flex;
